@@ -1,11 +1,11 @@
 .bodyContainer {
   display: flex;
-
   justify-content: space-between;
   height: 100vh;
   width: 100vw;
   margin: 0 auto;
   font-family: "Share Tech Mono", monospace;
+  background-image: url("https://i.pinimg.com/564x/40/45/b9/4045b9be83622d5e4cd8f9ef53178054.jpg");
   background-size: 100%;
   background-color: black;
   color: white;
@@ -21,10 +21,6 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-}
-.left {
-}
-.right {
 }
 
 .nameBox {
