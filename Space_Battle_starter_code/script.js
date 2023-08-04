@@ -1,3 +1,8 @@
+/**
+ * -------------
+ * DOM ELEMENTS
+ * -------------
+ */
 let hero = document.querySelector(".playerImage");
 let enemy = document.querySelector(".enemyImage");
 let heroName = document.querySelector(".player");
@@ -6,7 +11,7 @@ let enemyName = document.querySelector(".enemy");
  * --------------------------
  * CREATE CAST OF CHARACTERS
  * --------------------------
- * One hero and Six enemy
+ * One hero and Six enemy. Both inherits from Ships Class
  * Hero has: hull - 20, firepower - 5, accuracy - .7
  * Enemy has: hull - between 3 and 6, firepower - between 2and 4, accuracy - between .6and .8
  */
@@ -81,7 +86,6 @@ const createEnemies = (count) => {
  * THE GAME OBJECT
  * ----------------
  */
-
 const Game = {
   myShip: new Hero("Hero", 20, 5, 0.7),
   aliens: createEnemies(6),
