@@ -64,7 +64,7 @@
   border: 1px solidblack;
   width: 30vw;
   height: 35vh;
-  background-image: url("./images/enemy.gif");
+  background-image: url("./images/enemy1.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -85,4 +85,21 @@
 
 ul > li {
   list-style-type: none;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.message {
+  border: 3px solid salmon;
+}
+
+.message > p {
+  font-size: 1.2em;
+  padding: 1em;
+  justify-items: left;
 }
